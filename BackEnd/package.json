@@ -1,14 +1,15 @@
 {
   "name": "backend",
-  "version": "1.0.0",
+  "version": "1.0.1",                      //updated version (semantic change)
   "main": "server.js",
   "scripts": {
+    "start": "node server.js",            //added useful default start script
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["ai", "code-review"],      //added minimal keywords
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "Backend for AI code review",  //small but meaningful description
   "dependencies": {
     "@google/generative-ai": "^0.21.0",
     "cors": "^2.8.5",
