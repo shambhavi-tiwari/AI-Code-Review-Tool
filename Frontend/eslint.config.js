@@ -5,9 +5,9 @@ import reactHooks from 'eslint-plugin-react-hooks';
 import reactRefresh from 'eslint-plugin-react-refresh';
 
 export default [
-  { ignores: ['dist', 'build'] }, // added 'build' to ignored folders
+  { ignores: ['dist', 'build'] }, // added build to ig. folders
   {
-    files: ['**/*.{js,jsx,ts,tsx}'],     // added TypeScript support 
+    files: ['**/*.{js,jsx,ts,tsx}'],     // added ts support 
     languageOptions: {
       ecmaVersion: 2020,
       globals: globals.browser,
